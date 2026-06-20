@@ -10,7 +10,7 @@ from pymongo import MongoClient
 # =========================
 
 st.set_page_config(
-    page_title="Mi App Streamlit",
+    page_title="Mi App Streamlit con Mongo",
     page_icon="🚀",
     layout="wide"
 )
