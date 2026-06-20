@@ -36,7 +36,7 @@ except Exception as e:
 # INTERFAZ PRINCIPAL
 # =========================
 
-st.title("🚀 Mi Primera App Streamlit en Docker")
+st.title("🚀 Mi Primera App Streamlit con Mongo")
 st.markdown("---")
 
 # Sidebar
