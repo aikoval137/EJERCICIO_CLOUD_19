@@ -16,7 +16,7 @@ jobs:
         with:
           registry: ejercicio19.azurecr.io
           username: ${{ secrets.ACR_USERNAME }}
-          password: ${{ secrets. }}
+          password: ${{ secrets.ACR_PASSWORD }}
 
       - name: Build and push image
         uses: docker/build-push-action@v6
